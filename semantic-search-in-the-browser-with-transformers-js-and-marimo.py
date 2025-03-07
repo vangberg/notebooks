@@ -1,7 +1,7 @@
 import marimo
 
 __generated_with = "0.11.17"
-app = marimo.App(width="medium")
+app = marimo.App(width="medium", app_title="Semantic Search in the browser with Transformers.js and Marimo")
 
 
 @app.cell

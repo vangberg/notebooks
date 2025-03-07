@@ -1,6 +1,6 @@
 import marimo
 
-__generated_with = "0.11.14-dev6"
+__generated_with = "0.11.17"
 app = marimo.App(width="medium")
 
 
@@ -15,6 +15,8 @@ def _(mo):
     mo.md(
         r"""
         # Semantic Search in the browser with Transformers.js and Marimo
+
+        *By [Harry Vangberg](https://harry.vangberg.name)*
 
         [Marimo](https://marimo.io/) is a next-gen reactive Python notebook. Notebooks can run in the browser, thanks to [Pyodide](https://pyodide.org/)-powered [WASM export](https://docs.marimo.io/guides/wasm/). In this notebook I will walk through using [Transformers.js](https://huggingface.co/docs/transformers.js/en/index) from [HuggingFace](https://huggingface.co/) in combination with Marimo to build a semantic search solution that runs entirely in the browser.
         """
